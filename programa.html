@@ -1,0 +1,33 @@
+<meta charset="UTF-8">
+
+<script>
+
+	function pulaLinha() {
+
+		document.write("<br>");
+		document.write("<br>");
+
+	}
+
+
+	function mostra (nome, nascimento, ano){
+
+		document.write(nome + " tem " + (ano - nascimento) + " anos" );
+		pulaLinha();
+	
+	}
+
+	var ano = 2016;
+
+	mostra("Flavio", 1977, ano);
+	
+	mostra("Joaquim", 1996, ano);
+
+	ano = 2017;
+
+	mostra("Barney", 1976, ano);
+
+	document.write("Olá pessoal!");
+
+
+</script>
